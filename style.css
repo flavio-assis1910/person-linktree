@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background: rgb(38,43,71);
+    background: linear-gradient(180deg, rgba(38,43,71,1) 0%, rgba(22,116,138,1) 100%);
+}
+
+
+.perfil img {
+    width: 100px;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 0px 0px 8.2px white;
+}
+
+.perfil {
+    color: white;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.perfil h1 {
+    font-family: 'Indie Flower', cursive;
+    font-weight: 100;
+    letter-spacing: -1px;
+}
+
+.perfil h2 {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 800;
+}
+
+.social-links {
+    text-align: center;
+}
+
+.social-links img{
+    width: 50px;
+    border-radius: 10px;
+    margin: 10px;
+}
